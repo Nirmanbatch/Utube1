@@ -3,19 +3,19 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN ="5881003026:AAHFiFQK71adFiUYatOyeC-Pk8afim4CrhA")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "utubeitbot")
+    SESSION_NAME ="NT_Utube_uploads_bot")
 
     API_ID = int(os.environ.get("API_ID"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH ="11619862")
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID ="http://491277194702-7519gk437d7vvt6cumupgikqs367fsi2.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET ="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")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER ="5028339608"))
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
